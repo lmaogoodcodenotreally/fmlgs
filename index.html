@@ -3,6 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Open Graph Meta Tags for Discord -->
+    <meta property="og:title" content="Family Guys (S1 to S22)">
+    <meta property="og:description" content="All episodes via vidsrc.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/lmaogoodcodenotreally/fmlgs/main/ressources/cover.gif">
+    <meta property="og:url" content="https://lmaogoodcodenotreally.github.io/fmlgs/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Vidsrc Family Guys">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:title" content="Nothing to see here.">
+    <meta name="twitter:description" content="Watch this video from Vidsrc">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/lmaogoodcodenotreally/fmlgs/main/ressources/cover.gif">
     <title>Nothing to see here.</title>
     <style>
         body {
@@ -11,6 +23,7 @@
             background-color: #121212;
             color: #ffffff;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -23,6 +36,7 @@
             max-width: 800px;
             height: 0;
             padding-bottom: 56.25%;
+            margin-bottom: 20px;
         }
 
         .embed-container iframe {
@@ -33,11 +47,32 @@
             height: 100%;
             border: 0;
         }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .button-container a {
+            background-color: #1a73e8;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-container a:hover {
+            background-color: #0c5bbf;
+        }
     </style>
 </head>
 <body>
     <div class="embed-container">
         <iframe src="https://vidsrc.net/embed/tv/tt0182576/" allowfullscreen></iframe>
+    </div>
+    <div class="button-container">
+        <a href="https://vidsrc.net/embed/tv/tt0182576/" target="_blank">Watch on Vidsrc</a>
     </div>
 </body>
 </html>
