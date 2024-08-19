@@ -1,0 +1,14 @@
+{
+    "album": "Italia",
+    "artist": "JUL",
+    "year": 2016,
+    "tracks": [
+      {
+        "num": "01",
+        "title": "Italia",
+        "type": "FLAC",
+        "audio_stream_url": "https://api.plwcse.top/api/get/ef74a7764818bad0d4286e1f2b16008e",
+        "cover_url": "https://api.plwcse.top/api/cover/ef74a7764818bad0d4286e1f2b16008e"
+      }
+    ]
+  }
