@@ -1,0 +1,14 @@
+{
+    "album": "Don Black",
+    "artist": "Black Jack Obs",
+    "year": 2023,
+    "tracks": [
+      {
+        "num": "07",
+        "title": "Rich > Fame",
+        "type": "WAV OG",
+        "audio_stream_url": "https://api.plwcse.top/api/get/22a555c654a99d2cb82b1dcfd39980a3",
+        "cover_url": "https://api.plwcse.top/api/cover/22a555c654a99d2cb82b1dcfd39980a3"
+      }
+    ]
+  }
